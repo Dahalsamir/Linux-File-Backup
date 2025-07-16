@@ -20,16 +20,24 @@ This is a simple Bash script to back up any folder on your system into a `.zip` 
 
    ```bash
    git clone https://github.com/Dahalsamir/Linux-File-Backup
-   cd Linux-File-Backup```
+   cd Linux-File-Backup
+   ```
+   
 
    ```bash
    chmod +x Linux-File-Backup
-
+   ```
+   
    ```bash
-   bash file_backup.sh                                      
-   Enter the folder path: /home/sambhala/Downloads/backup_check
+   bash file_backup.sh
+   ```
+
+    ## Example of the code 
+   ```bash
+   bash file_backup.sh                                  
+   Enter the folder path: /home/user/Downloads/backup_check
    /home/sambhala/Downloads
    adding: backup_check/ (stored 0%)
    adding: backup_check/hello.txt (stored 0%)
    ✅ Backup created: backup_check_backup_20250716_015644.zip
-   the file save in:  /home/sambhala/Downloads/backup_check_backup_20250716_015644.zip
+   the file save in:  /home/user/Downloads/backup_check_backup_20250716_015644.zip
