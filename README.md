@@ -20,7 +20,7 @@ This is a simple Bash script to back up any folder on your system into a `.zip` 
 
    ```bash
    git clone https://github.com/Dahalsamir/Linux-File-Backup
-   cd Linux-File-Backup
+   cd Linux-File-Backup```
 
    ```bash
    chmod +x Linux-File-Backup
